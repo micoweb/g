@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nt{
+  font-family: "raleway", serif;
+  font-size: 20px;
+  font-weight: 800; 
+  text-transform: uppercase;
+  color: #ffea00;
+  margin-top: 50px;
+  text-shadow: 0 0 25px #ffea00, 0 0 50px #ffea00, 0 0 100px white, 0 0 150px white;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80")
+    no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.new-year-body {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  top: -80px;
+}
+
+.new-year {
+  font-size: 5rem;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+  text-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+  font-family: "Sour Gummy", cursive;
+}
+
+.year {
+  margin: 0;
+  font-size: 8rem;
+  letter-spacing: 10px;
+  font-family: "Neonderthaw", "Poiret One", cursive;
+  text-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+}
+
+.btn {
+  margin-top: 4rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #0c0f0a;
+  padding: 1rem;
+  font-family: "Allerta Stencil", sans-serif;
+  border: none;
+  box-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+  outline: 4px solid white;
+  outline-offset: 10px;
+}
+
+.btn:hover {
+  outline-offset: 4px;
+}
+
+.snow {
+  position: absolute;
+  top: -10%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 0px #fff, 0 0 50px #fff;
+}
+
+.snowAnimation1 {
+  animation: snowFall1 linear infinite;
+}
+.snowAnimation2 {
+  animation: snowFall2 linear infinite;
+}
+.snowAnimation3 {
+  animation: snowFall3 linear infinite;
+}
+.snowAnimation4 {
+  animation: snowFall4 linear infinite;
+}
+
+@keyframes snowFall1 {
+  0% {
+    transform: translate(0vw, 0vh);
+  }
+  100% {
+    transform: translate(50vw, 150vh);
+  }
+}
+@keyframes snowFall2 {
+  0% {
+    transform: translate(-10vw, -10vh);
+  }
+  100% {
+    transform: translate(60vw, 150vh);
+  }
+}
+@keyframes snowFall3 {
+  0% {
+    transform: translate(10vw, 0vh);
+  }
+  100% {
+    transform: translate(40vw, 150vh);
+  }
+}
+@keyframes snowFall4 {
+  0% {
+    transform: translate(0vw, 0vh);
+  }
+  100% {
+    transform: translate(40vw, 150vh);
+  }
+}
+
+.white {
+  text-shadow: 0 0 25px #fff, 0 0 50px #fff, 0 0 100px #fff;
+}
+.btn-white {
+  box-shadow: 0 0 25px #fff, 0 0 50px #fff, 0 0 100px #fff;
+}
+.snow-white {
+  box-shadow: 0 0 0px #fff, 0 0 50px #fff;
+}
+.green {
+  text-shadow: 0 0 5px #1fd224, 0 0 25px #1fd224, 0 0 50px #1fd224,
+    0 0 100px #1fd224, 0 0 200px #1fd224;
+}
+.btn-green {
+  box-shadow: 0 0 5px #1fd224, 0 0 25px #1fd224, 0 0 50px #1fd224,
+    0 0 100px #1fd224, 0 0 200px #1fd224;
+}
+.snow-green {
+  box-shadow: 0 0 20px #1fd224, 0 0 50px #1fd224;
+}
+.orange {
+  text-shadow: 0 0 5px #ffaa01, 0 0 25px #ffaa01, 0 0 50px #ffaa01,
+    0 0 100px #ffaa01, 0 0 200px #ffaa01;
+}
+.btn-orange {
+  box-shadow: 0 0 5px #ffaa01, 0 0 25px #ffaa01, 0 0 50px #ffaa01,
+    0 0 100px #ffaa01, 0 0 200px #ffaa01;
+}
+.snow-orange {
+  box-shadow: 0 0 20px #ffaa01, 0 0 50px #ffaa01;
+}
+.pink {
+  text-shadow: 0 0 5px #ff00aa, 0 0 25px #ff00aa, 0 0 50px #ff00aa,
+    0 0 100px #ff00aa, 0 0 200px #ff00aa;
+}
+.btn-pink {
+  box-shadow: 0 0 5px #ff00aa, 0 0 25px #ff00aa, 0 0 50px #ff00aa,
+    0 0 100px #ff00aa, 0 0 200px #ff00aa;
+}
+.snow-pink {
+  box-shadow: 0 0 20px #ff00aa, 0 0 50px #ff00aa;
+}
+.violet {
+  text-shadow: 0 0 5px #aa00ff, 0 0 25px #aa00ff, 0 0 50px #aa00ff,
+    0 0 100px #aa00ff, 0 0 200px #aa00ff;
+}
+.btn-violet {
+  box-shadow: 0 0 5px #aa00ff, 0 0 25px #aa00ff, 0 0 50px #aa00ff,
+    0 0 100px #aa00ff, 0 0 200px #aa00ff;
+}
+.snow-violet {
+  box-shadow: 0 0 20px #aa00ff, 0 0 50px #aa00ff;
+}
+.blue {
+  text-shadow: 0 0 5px #00aaff, 0 0 25px #00aaff, 0 0 50px #00aaff,
+    0 0 100px #00aaff, 0 0 200px #00aaff;
+}
+.btn-blue {
+  box-shadow: 0 0 5px #00aaff, 0 0 25px #00aaff, 0 0 50px #00aaff,
+    0 0 100px #00aaff, 0 0 200px #00aaff;
+}
+.snow-blue {
+  box-shadow: 0 0 20px #00aaff, 0 0 50px #00aaff;
+}
+.red {
+  text-shadow: 0 0 5px #f00, 0 0 25px #f00, 0 0 50px #f00, 0 0 100px #f00,
+    0 0 200px #f00;
+}
+.btn-red {
+  box-shadow: 0 0 5px #f00, 0 0 25px #f00, 0 0 50px #f00, 0 0 100px #f00,
+    0 0 200px #f00;
+}
+.snow-red {
+  box-shadow: 0 0 20px #f00, 0 0 50px #f00;
+}
+.yellow {
+  text-shadow: 0 0 5px #ffea00, 0 0 25px #ffea00, 0 0 50px #ffea00,
+    0 0 100px #ffea00, 0 0 200px #ffea00;
+}
+.btn-yellow {
+  box-shadow: 0 0 5px #ffea00, 0 0 25px #ffea00, 0 0 50px #ffea00,
+    0 0 100px #ffea00, 0 0 200px #ffea00;
+}
+.snow-yellow {
+  box-shadow: 0 0 20px #ffea00, 0 0 50px #ffea00;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400");
+
+body {
+  margin: 0;
+  margin-top: -20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  animation: fadeout 11s linear forwards;
+}
+
+.loading h2 {
+  color: #000;
+}
+
+.loading .bar {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  background: transparent;
+  margin: 0 20px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+}
+
+.loading .bar:after {
+  content: "Loading...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  font-size: 20px;
+  mix-blend-mode: difference;
+}
+
+.loading .bar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transform-origin: left;
+  animation: animate 10s linear forwards;
+}
+
+.center {
+  position: relative;
+  width: 400px;
+}
+
+.center div {
+  position: relative;
+  margin: -30px 0;
+  height: 100px;
+  z-index: 2;
+  transform: skewY(-5deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center div:nth-child(2),
+.center div:nth-child(4) {
+  transform: skewY(14.5deg);
+  z-index: 1;
+}
+.center div:nth-child(4) {
+  transform: skewY(25deg);
+  transform-origin: left;
+  top: -52px;
+}
+
+.center div:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.center div:nth-child(1):before,
+.center div:nth-child(3):before {
+  background: linear-gradient(-160deg, #ff0058, #673ab7);
+  transform: scaleX(0);
+}
+
+.center div:nth-child(2):before,
+.center div:nth-child(4):before {
+  background: linear-gradient(-20deg, #ff0058, #673ab7);
+  transform: scaleX(0);
+}
+.center div:nth-child(1):before {
+  backface-visibility: hidden;
+  animation: animate 1s linear forwards;
+  transform-origin: right;
+  animation-delay: 12s;
+}
+
+.center div:nth-child(2):before {
+  backface-visibility: hidden;
+  animation: animate 1s linear forwards;
+  transform-origin: left;
+  animation-delay: 13s;
+}
+
+.center div:nth-child(3):before {
+  backface-visibility: hidden;
+  animation: animate 1s linear forwards;
+  transform-origin: right;
+  animation-delay: 14s;
+}
+
+.center div:nth-child(4):before {
+  backface-visibility: hidden;
+  animation: animate 1s linear forwards;
+  transform-origin: left;
+  animation-delay: 15s;
+  width: 60%;
+  left: 0;
+}
+
+.center div:nth-child(1):after,
+.center div:nth-child(3):after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(29, 0, 14, 0.1);
+}
+
+.center div h2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  opacity: 0;
+  color: #fff;
+}
+
+.center div:nth-child(1) h2 {
+  animation: fadeText 0.5s linear forwards;
+  animation-delay: 13s;
+  font-size: 40px;
+}
+
+.center div:nth-child(3) h2 {
+  animation: fadeText 0.5s linear forwards;
+  animation-delay: 15s;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+@keyframes animate {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0%,
+  91% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+body {
+  background-color: black;
+  text-align: center;
+
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+.watermark {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.watermark h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
